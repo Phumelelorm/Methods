@@ -16,7 +16,7 @@ namespace CallingMethods
             Console.WriteLine(square(8));
             Console.WriteLine(add(10));
             Console.WriteLine(substract(15));
-            
+            //freezing the console
             Console.ReadLine();
         }
 
@@ -25,12 +25,13 @@ namespace CallingMethods
             int result = number * number * number;
             return result;
         }
+        // Declare a method with the return type int
         static int square(int number)
         {
             int result = number * number;
             return result;
         }
-
+        // Declare a method with the return type int
         static int add(int number)
         {
             int result = number + number;
